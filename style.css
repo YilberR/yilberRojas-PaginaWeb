@@ -1,0 +1,86 @@
+* {
+ 
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('img/fondo.jpg');
+}
+
+.form-register {
+   
+  width: 1000px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.tabla {
+ 
+  width: 1000px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+
+a{
+ width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px;
+  font-size: 16px;
+}
+
+.form-register h4 {
+
+  font-size: 32px;
+  margin-bottom: 20px;
+  
+}
+.form-register h5{
+    
+     font-size: 23px;
+     margin-bottom: 50px;
+}
+
+.especie{
+    
+}
+
+
+.controls {
+  width: 100%;
+ margin-left: 1px;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid#1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  
+  color: white;
+}
+
+.form-register .botons {
+  width: 10%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px;
+  font-size: 16px;
+}

@@ -1,0 +1,104 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Ciudadanos de 4 patas</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Bienvenido al programa de ciudadanos de 4 patas</h4>
+    <h5>Este es el formulario que debe diligenciar para registrar una nueva mascota</h5>
+    
+    <form >
+    <label >Fecha de registro:</label>
+    <input class="controls" type="date" name="apellidos" id="apellidos" placeholder="Ingrese la Fecha de Registro" required>
+    
+    <label >Nombre del propetario:</label>
+    <input class="controls" type="text" name="nombreProp" id="nombreProp" placeholder="Ingrese el Nombre del propetario" required>
+    
+    <label >Nombre de la mascota:</label>
+    <input class="controls" type="text" name="nombreMas" id="nombreMas" placeholder="Ingrese el Nombre de la mascota" required>
+    
+    <label >Microchip:</label>
+    <input class="controls" type="text" name="microchip" id="microchip" placeholder="Ingrese el Microchip" required>
+    
+    <label >Edad de la mascota:</label>
+    <input class="controls" type="number" name="edad" id="edad" placeholder="Ingrese la edad de la Mascota" required>
+    
+    <label >especie:</label>
+    <select id="especie" required>
+                                <option></option>
+                                <option>Perro</option>
+                                <option>Gato</option>	
+                            </select>
+    
+     <label >Raza:</label>
+     <select id="raza" disabled="disabled" required>
+                            <option></option>	
+                        </select>               
+                        <select id="catraza" disabled="disabled" required>
+                            <option></option>	
+                        </select>
+   <label >Sexo:</label>
+     <select id="sex" required>
+                                <option></option>
+                                <option>Macho</option>
+                                <option>Hembra</option>	
+                            </select>
+    <label >Tamaño:</label>
+    <select id="tamaño" required>
+                                <option></option>
+                                <option>Miniatura</option>
+                                <option>Pequeño</option>
+                                <option>Mediano</option>
+                                <option>Grande</option>
+                            </select>
+      <label >Peligroso:</label>      
+      <select id="peligroso" required>
+                                <option></option>
+                                <option>Si</option>
+                                <option>No</option>
+                            </select>
+       <label >Esterilizado:</label> 
+       <select id="esterilizado" required>
+                                <option></option>
+                                <option>Si</option>
+                                <option>No</option>
+                            </select>
+        <label >Localidad:</label> 
+        <select id="localidad" required>
+                                <option></option>
+                                <option>A. NARINO</option>
+                                <option>B. UNIDOS</option>
+                                <option>BOSA</option>
+                                <option>C. BOLIVAR</option>
+                                <option>CHAPINERO</option>
+                                <option>ENGATIVA</option>
+                                <option>FONTIBON</option>
+                                <option>KENNEDY</option>
+                                <option>LA CANDELARIA</option>
+                                <option>LOS MARTIRES</option>
+                                <option>P. ARANDA</option>
+                                <option>R. URIBE</option>
+                                <option>SAN CRISTOBAL</option>
+                                <option>SANTA FE</option>
+                                <option>SUBA</option>
+                                <option>SUMAPAZ</option>
+                                <option>TEUSAQUILLO</option>
+                                <option>TUNJUELITO</option>
+                                <option>USAQUEN</option>
+                                <option>USME</option>
+                            </select>
+    
+       <input id="petsave-button"  type="submit"  class="botons" value="Registrar"/>
+      <a href="tabla.html">Mostrar lista</a>
+     </form>
+    
+  </section>
+    <script src="./js/main.js"></script>
+</body> 
+</html>
