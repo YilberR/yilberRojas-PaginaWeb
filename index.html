@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  
   <title>Ciudadanos de 4 patas</title>
 </head>
 <body>
@@ -13,24 +15,24 @@
     <h4>Bienvenido al programa de ciudadanos de 4 patas</h4>
     <h5>Este es el formulario que debe diligenciar para registrar una nueva mascota</h5>
     
-    <form >
+    <form class="needs-validation" id="formulario" novalidate>
     <label >Fecha de registro:</label>
-    <input class="controls" type="date" name="apellidos" id="apellidos" placeholder="Ingrese la Fecha de Registro" required>
+    <input class="controls" type="date" name="apellidos" id="fecha" placeholder="Ingrese la Fecha de Registro" required/>
     
     <label >Nombre del propetario:</label>
-    <input class="controls" type="text" name="nombreProp" id="nombreProp" placeholder="Ingrese el Nombre del propetario" required>
+    <input class="controls" type="text" name="nombreProp" id="nombreProp" placeholder="Ingrese el Nombre del propetario" required/>
     
     <label >Nombre de la mascota:</label>
-    <input class="controls" type="text" name="nombreMas" id="nombreMas" placeholder="Ingrese el Nombre de la mascota" required>
+    <input class="controls" type="text" name="nombreMas" id="nombreMas" placeholder="Ingrese el Nombre de la mascota" required/>
     
     <label >Microchip:</label>
-    <input class="controls" type="text" name="microchip" id="microchip" placeholder="Ingrese el Microchip" required>
+    <input class="controls" type="number" name="microchip" id="microchip" placeholder="Ingrese el Microchip" required/>
     
     <label >Edad de la mascota:</label>
-    <input class="controls" type="number" name="edad" id="edad" placeholder="Ingrese la edad de la Mascota" required>
+    <input class="controls" type="number" name="edad" id="edad" placeholder="Ingrese la edad de la Mascota" required/>
     
     <label >especie:</label>
-    <select id="especie" required>
+    <select id="especie1" required>
                                 <option></option>
                                 <option>Perro</option>
                                 <option>Gato</option>	
@@ -95,8 +97,10 @@
                             </select>
     
        <input id="petsave-button"  type="submit"  class="botons" value="Registrar"/>
+       
       <a href="tabla.html">Mostrar lista</a>
      </form>
+   
     
   </section>
     <script src="./js/main.js"></script>
